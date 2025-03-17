@@ -1,0 +1,36 @@
+{
+  "name": "bayswaterdentist.com.au",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^4.6.0",
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1",
+    "next": "12.2.2",
+    "next-connect": "^0.13.0",
+    "nodemailer": "^6.7.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-xmasonry": "^3.0.5",
+    "swiper": "^8.3.1",
+    "wpapi": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.2",
+    "superagent": "^8.0.0"
+  }
+}
