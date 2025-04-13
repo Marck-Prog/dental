@@ -1,0 +1,38 @@
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.head {
+    font-size: 4rem !important;
+}
+
+.para {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.headingh1 {
+    line-height: 1 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .head {
+        font-size: 3rem !important;
+    }
+
+    .para {
+        font-size: 1.2rem;
+    }
+
+    .headingh1 {
+        line-height: 0.7 !important;
+        margin-bottom: 2rem;
+    }
+}
